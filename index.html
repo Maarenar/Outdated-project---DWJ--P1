@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+
+	<title>WEBAGENCY - Agence web spécialiste en UX/UI design et SEO à Bourges</title>
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.css">
+	<link rel="icon" type="image/x-icon" href="img/logo_mini.png">
+	
+
+	<meta name="viewport" content="initial-scale=1">
+	
+	
+</head>
+<body>
+	<!---------------------------------------------------------------------------------------------------------------------------
+															HEADER
+	---------------------------------------------------------------------------------------------------------------------------->
+	<header>
+		<a href="index.html"><img src="img/logo.png" id="logo_grand" alt="Logo Webagency" /></a>  
+		<ul id="menu_navigation">
+			<li class="nav_item item_active"><a href="index.html">Accueil</a></li>
+			<li class="nav_item"><a href="#services">Services</a></li>
+			<li class="nav_item"><a href="#projets">Portfolio</a></li>
+			<li class="nav_item"><a href="#contact">Contact</a></li>
+		</ul>
+
+		<div id="menu_hamburger">
+			<i class="fal fa-bars" id="hamburger_icon"></i>
+			<ul id="nav_menu_hamburger">
+				<li class="li_menu_burger"><a href="index.html">Accueil</a></li>
+				<li class="li_menu_burger"><a href="#services">Services</a></li>
+				<li class="li_menu_burger"><a href="#projets">Portfolio</a></li>
+				<li class="li_menu_burger"><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!---------------------------------------------------------------------------------------------------------------------------
+													SECTION SLIDER
+	---------------------------------------------------------------------------------------------------------------------------->
+
+	<section id="slider">
+		<img src="img/slider_1.jpg" id="slider_img_large" alt="Photo de petite fille avec les mains peinte" />
+		<img src="img/slider_small.png" id="slider_img_small" alt="Photos de mains d'enfants peintes" />
+		<div id="slider_text">
+			<h1><span>webagency</span> : l'agence de tous vos projets !</h1>
+			<p>Vous avez un projet web? La Webagency vous aide à le réaliser.</p>
+			<a href="#services" id="button">Plus d'infos</a>
+		</div>
+		<div id="slider_chevron_left">
+			<i class="fas fa-circle" id="slider_circle_left"></i>
+			<i class="fal fa-angle-left" id="arrow_left"></i>
+		</div>
+		<div id="slider_chevron_right">
+			<i class="fas fa-circle" id="slider_circle_right"></i>
+			<i class="fal fa-angle-right" id="arrow_right"></i>
+		</div>
+	</section>
+
+	<!---------------------------------------------------------------------------------------------------------------------------
+													SECTION SERVICES
+	---------------------------------------------------------------------------------------------------------------------------->
+
+	<section id="services">
+		<div id="services_top_part">
+			<h2>nos services</h2>
+			<div id="services_title_icons">
+				<i class="fas fa-circle" id="services_title_circle"></i>
+				<div id="services_title_line"></div>
+			</div>
+			<p>Nos experts vous aident à optimiser l'expérience utilisateur et tirer le meilleur potentiel de chaque support, du web au mobile.</p>
+		</div>
+		<div id="services_bottom_part">
+			<img src="img/main-feature.png" id="services_image" alt="Image d'ordinateur" /> 
+			<div id="bottom_right_part">
+				<div class="services_description">
+					<div class="services_description_icons">
+						<i class="fas fa-circle" id="ux_design_circle"></i>
+						<i class="fal fa-chart-line" id="ux_design_chart"></i>
+					</div>
+					<div class="services_description_text">
+						<h3>UX design</h3>
+						<p>Une équipe passionée qui place l’utilisateur final au centre de sa démarche pour une technologie plus humaine.</p>
+					</div>
+				</div>
+				<div class="services_description">
+					<div class="services_description_icons">
+						<i class="fas fa-circle" id="ui_design_circle"></i>
+						<i class="fas fa-cubes" id="ui_design_cubes"></i>
+					</div>
+					<div class="services_description_text">
+						<h3>UI design</h3>
+						<p>Une interface optimisée qui permet à votre site web de rester à la page au gré des évolutions techniques et des nouveaux usages.</p>
+					</div>
+				</div>
+				<div class="services_description">
+					<div class="services_description_icons">
+						<i class="fas fa-circle" id="seo_circle"></i>
+						<i class="fas fa-chart-pie" id="seo_chart"></i>
+					</div>
+					<div class="services_description_text">
+						<h3>SEO</h3>
+						<p>Nos experts en référencement vous permettent d'améliorer le positionnement de votre site afin d'augmenter votre conversion.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!---------------------------------------------------------------------------------------------------------------------------
+													SECTION PROJETS
+	---------------------------------------------------------------------------------------------------------------------------->
+	<section id="projets">
+		<div id="projets_title">
+			<h2>nos projets</h2>
+			<div id="projets_title_icons">
+				<i class="fas fa-circle" id="projets_title_circle"></i>
+				<div id="projets_title_line"></div>
+			</div>
+			<p>Découvrez une sélection de nos réalisations tendances, modernes et innovantes.</p>
+		</div>
+
+		<ul id="nav_portfolio">
+			<li class="nav_portfolio_item nav_item_active"><a href="#">Tous</a><i class="fas fa-caret-down triangle_item triangle_active"></i></li>	
+			<li class="nav_portfolio_item"><a href="#">Créations</a><i class="fas fa-caret-down triangle_item"></i></li>
+			<li class="nav_portfolio_item"><a href="#">Business</a><i class="fas fa-caret-down triangle_item"></i></li>
+			<li class="nav_portfolio_item"><a href="#">Autres</a><i class="fas fa-caret-down triangle_item"></i></li>
+		</ul>
+
+		<div id="projets_album">
+			<div class="album_item">
+				<img src="img/01.jpg" alt="Image de lunettes" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Déguisements en folie</h3>
+						<p>Site e-commerce</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/02.jpg" alt="Image d'un lapin origami" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Origamis party!</h3>
+						<p>Visuels et flyers</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/03.jpg" alt="Logo du site e-commerce" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>La banane gominée.fr</h3>
+						<p>Site e-commerce</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/04.jpg" alt="Image de carnet" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Tendance architecture</h3>
+						<p>Site portfolio</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/05.jpg" alt="Image de sacs de shopping" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Shopping.co.uk</h3>
+						<p>Site e-commerce</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/06.jpg" alt="Image de paysage" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Projet 6</h3>
+						<p>Le monde à vos pieds</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/07.jpg" alt="Image d'un stylo" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Blue Mount : luxury pen</h3>
+						<p>Site e-commerce</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+			<div class="album_item">
+				<img src="img/08.jpg" alt="Article de scrapbooking" />
+				<div class="album_item_overlay">
+					<div class="album_item_overlay_text">
+						<h3>Scrapmania.fr</h3>
+						<p>Blog</p>
+					</div>
+					<i class="far fa-eye icon_eye"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!---------------------------------------------------------------------------------------------------------------------------
+													SECTION CONTACT
+	---------------------------------------------------------------------------------------------------------------------------->
+
+	<section id="contact">
+		<div id="contact_form">
+			<h3>Contact</h3>
+			<div id="contact_address">
+				<p id="company_name">Webagency SAS</p>
+				<p>23 rue d'Hauteville 75010 PARIS</p>
+				<p>Tel: 01 02 03 04 05</p>
+			</div>
+			<form>
+				<input type="text" name="nom" placeholder="Nom" class="form_element"/>
+				<input type="email" name="email" placeholder="Email" class="form_element"/>
+				<input type="text" name="sujet" placeholder="Sujet" class="form_element"/>
+				<textarea placeholder="Votre message..."></textarea>
+				<input type="submit" name="envoyer" value="Envoyer" id="submit_btn" />
+			</form>
+		</div>
+		<iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXmBqDV35fSsuElA7ItIADOGUOZHKkxow&q=23+Rue+d'Hauteville,+75010+Paris">
+        </iframe>
+		<div id="mask"></div>
+		
+	</section>
+
+	<!---------------------------------------------------------------------------------------------------------------------------
+													FOOTER
+	---------------------------------------------------------------------------------------------------------------------------->
+
+	<footer>
+		<p>Site web factice de Marion Renard, étudiante <a href="https://openclassrooms.com" target="_blank">OpenClassrooms</a></p>
+	</footer>
+	
+</body>
+</html>
