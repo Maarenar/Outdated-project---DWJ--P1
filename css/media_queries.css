@@ -61,7 +61,7 @@
 @media all and (max-width: 768px){
 	h1{
 		margin-top: 10px;
-		font-size: 1.5em;
+		font-size: 1.4em;
 		margin-bottom: 30px;
 	}
 	#menu_navigation{
@@ -117,9 +117,6 @@
 
 /*-------------MOBILES--------------*/
 @media all and (max-width: 576px){
-	h2{
-		font-size: 1.5em;
-	}
 	#menu_navigation{
 		display: none;
 	}
@@ -189,6 +186,14 @@
 		align-items: center;
 		margin-bottom: 44px;
 	}
+	.services_description_text{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.services_description_text p{
+		text-align: center;
+	}
 	#ux_design_circle, #ui_design_circle, #seo_circle{
 		top: -25px;
 		left: 70px;
@@ -217,40 +222,16 @@
 	}
 	#map{
 		margin-top: 10px;
+		height: 50%;
 	}
 	#mask{
 		position: absolute;
 		top: 490px;
+		height: 25%;
 	}
 }
 
-/*-----MOBILES PETITS---------
 
-@media all and (max-width: 320px){
-	#menu_hamburger{
-		left: 100px;
-	}
-	#bottom_right_part{
-		margin-top: 46px;
-	}
-	.services_description{
-		flex-direction: column;
-		align-items: center;
-		margin-bottom: 44px;
-	}
-	#ux_design_circle, #ui_design_circle, #seo_circle{
-		top: -25px;
-		left: 70px;
-	}
-	#projets{
-		margin-top: 50px;
-	}
-	#nav_portfolio{
-		width: 80%;
-	}
-	.icon_eye{
-		font-size: 0.7em;
-		left: 170px;
-		bottom: 40px;
-	}
-}*/
+
+
+
